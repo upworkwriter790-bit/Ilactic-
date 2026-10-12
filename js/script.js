@@ -255,8 +255,7 @@ if (auditForm) {
   const nameInput = document.getElementById("join-name");
   const phoneInput = document.getElementById("join-phone");
 
-  // TODO: replace with the real WhatsApp group invite link once you have it
-  const WHATSAPP_GROUP_URL = "#";
+  const WHATSAPP_GROUP_URL = "https://chat.whatsapp.com/Cwe20x0k30XId8PNscbXUn?s=cl&p=i&ilr=4&iam=2";
   // TODO: replace with the deployed Google Apps Script web app URL —
   // see GOOGLE-SHEET-SETUP.md for how to get this
   const SHEET_ENDPOINT = "";
