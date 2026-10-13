@@ -772,6 +772,20 @@ html.js .catalog-row.is-in .pi .b { opacity: 1; transform: none; }
   margin: 0;
 }
 
+.footer-legal {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--surface-border);
+}
+.footer-legal a {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+.footer-legal a:hover { color: var(--accent); }
+
 
 /* ---------------------------------------------------------
    AI audit section
@@ -1336,3 +1350,23 @@ html.js.ptl .hero-logo-frame::after { display: none; }
 }
 .join-form { display: flex; flex-direction: column; gap: 16px; }
 .join-form .form-submit { align-self: stretch; text-align: center; }
+
+/* Terms & Privacy pages */
+.legal-page { border-bottom: none; }
+.legal-content { max-width: 720px; }
+.legal-updated { color: var(--text-muted); font-size: 0.85rem; margin: 12px 0 0; }
+.legal-body { margin-top: 40px; }
+.legal-body h2 {
+  font-size: 1.02rem;
+  margin: 36px 0 10px;
+}
+.legal-body h2:first-child { margin-top: 0; }
+.legal-body p, .legal-body li {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+.legal-body ul { padding-left: 20px; margin: 10px 0; }
+.legal-body li { margin-bottom: 8px; }
+.legal-body a { color: var(--accent); }
+.legal-body a:hover { color: var(--accent-bright); }
